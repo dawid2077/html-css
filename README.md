@@ -1,0 +1,1 @@
+Strona zawierajaca cwiczenia z list,display,tabele
