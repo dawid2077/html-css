@@ -45,3 +45,12 @@ main {
     margin: 30px auto;
     margin-left:300px;
 }
+#ladnie{
+    text-align: center;
+    border: 4px black solid;
+    width: 500px;
+    position: relative;
+    top: 400px;
+    left: 100px;
+
+}
