@@ -3,20 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html</title>
+    <title>Tabele</title>
     <link rel="stylesheet" href="css/tabele.css">
 </head>
-<header>
-        <h1>Tabele</h1>
-</header>
 <body>
+
+    <header>
+        <h1>Tabele</h1>
+    </header>
+
     <nav>
         <ul>
-        <li><a href="index.html">Strona główna</a> </li>
-        <li><a href="position.html">Pozycjonowanie</a> </li>
-        <li><a href="listy.html">Listy</a> </li>
-        <li><a href="tabele.html" class="active">Tabele</a> </li>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="position.html">Pozycjonowanie</a></li>
+            <li><a href="listy.html">Listy</a></li>
+            <li><a href="tabele.html" class="active">Tabele</a></li>
         </ul>
     </nav>
+
+    <main>
+        
+        <table id="table2">
+            <caption>Tabela: collapse (lewa)</caption>
+            <tr><th>Imię</th><th>Nazwisko</th></tr>
+            <tr><td>Jan</td><td>Kowalski</td></tr>
+            <tr><td>Anna</td><td>Nowak</td></tr>
+        </table>
+
+        <table id="table1">
+            <caption>Tabela: separate (prawa)</caption>
+            <tr><th>Imię</th><th>Nazwisko</th></tr>
+            <tr><td>Marek</td><td>Zieliński</td></tr>
+            <tr><td>Karolina</td><td>Wiśniewska</td></tr>
+        </table>
+
+        <table class="full-table">
+            <caption>Tabela: Colspan (cała szerokość)</caption>
+            <tr><th colspan="2">Imię i Nazwisko</th><th>Wiek</th></tr>
+            <tr><td>Adam</td><td>Malinowski</td><td>28</td></tr>
+            <tr><td>Ewa</td><td>Dąbrowska</td><td>35</td></tr>
+        </table>
+
+        <table class="full-table">
+            <caption>Tabela: Rowspan (cała szerokość)</caption>
+            <tr><th>Imię</th><td>Tomasz</td></tr>
+            <tr><th rowspan="2">Telefon</th><td>123-456-789</td></tr>
+            <tr><td>987-654-321</td></tr>
+        </table>
+
+    </main>
+
 </body>
 </html>
