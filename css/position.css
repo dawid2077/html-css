@@ -44,12 +44,12 @@ main {
     max-width: 1000px;
     margin: 30px auto;
     margin-left:300px;
-    min-height: 600px;
+    min-height: 2000px;
     margin-bottom: 15px;
     position: relative;
     padding: 20px;
 
-}
+}                           
 
 .static {
     text-align: center;
@@ -63,7 +63,7 @@ main {
 .relative {
     background-color: #e67e22;
     position: relative;
-    top: 100px;
+    top: 70px;
     text-align: center;
     width: 100px;
     height: 100px;
