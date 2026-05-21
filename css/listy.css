@@ -45,3 +45,27 @@ main {
     margin: 30px auto;
     margin-left:300px;
 }
+#hidden{
+    display:none
+}
+#circle{
+    list-style-type: disc;  
+}
+#empty_circle {list-style-type: circle;}
+#dot{
+    list-style-type: square;
+}
+#arabskie{ list-style-type:decimal;}
+#alfabet{
+    list-style-type: lower-alpha;
+}
+#rzymskie{
+    list-style-type: upper-roman;   
+}
+#lower{
+    list-style-type: lower-roman;
+
+}
+#ostatnie{
+    list-style-type: upper-alpha;
+}
